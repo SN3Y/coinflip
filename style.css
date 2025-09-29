@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #414a64;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    justify-items: center;
+}
+
+#coinImage {
+    cursor: pointer;
+    perspective: 1000px;
+    backface-visibility: hidden;
+    display: flex;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+.rotate{
+    transform: rotateY(360deg);
+}
+#title {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #ECEDF0;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px #35383f;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #35383f;
+    
+}
+#text{
+    color: #ECEDF0;
+    font-size: 1.5rem;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#label {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: #ECEDF0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+#btn {
+    background-color: #1F6FB0;
+    width: fit-content;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: #ECEDF0;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border-width: 0;
+    border-radius: 7px;
+    box-shadow: 0px 4px 0px 0px #23649b;
+}
+p{
+    font-size: 1.25rem;
+}
